@@ -1,0 +1,62 @@
+<html>
+  <head>
+    <title>ADEDAYO EYILADEOGO 18CJ024098 DATA VISUALIZATION ASSIGNMENT</title>
+
+    <link rel="stylesheet" type="text/css" href= "{{ url_for('static', filename='css/main.css') }}">
+
+  </head>
+  <body style="background-color:wheat;">
+      <h1 align="center">RICE PRODUCTION IN AFRICAN COUNTRIES OVER THE YEARS</h1><hr>
+
+    <div class="cell">
+        <p class="main-text" >
+          <b> These Bar plots below shows Rice Production in African countries over the years 2010-2018</b><hr>
+        <p>
+<br/><br/>
+        <!-- <img src="{{ url_for('static', filename='output1.png') }}" width="70%"> -->
+		<img src='bar1.png' alt='Bar chart for 2010-2012' title ="Bar chart for 2010-2012" ></img>
+<br/><br/>
+		<img src='bar2.png' alt='Bar chart for 2013-2015' title ="Bar chart for 2013-2015"></img>
+<br/><br/>
+		<img src='bar3.png' alt='Bar chart for 2016-2018' title ="Bar chart for 2016-2018"></img>
+<br/><br/>
+		</div>
+
+
+      <div  class="cell">
+        <p class="main-text">
+           <hr> <b>The line graphs show below the different measures of dispersion(as indicated by the legend),
+            for the observation values in the line graphs above the first plot being the Mean,followed by the Median, Standard Variation and the Max</b><hr>
+        </p>
+<br/><br/>
+      <!--  <img src="{{ url_for('static', filename='output2.png') }}" width="40%"> -->
+	  <img src='output2.png' alt='Measures of Dispersion' width='70%'>
+       </div>
+ <div  class="cell">
+        <p class="main-text">
+           <hr> <b>The line graph below shows the Inter Quartile for Rice production in African countries from 2010-2018</b><hr>
+         </p>
+<br/><br/>
+       <!-- <img src="{{ url_for('static', filename='output3.png') }}" width="40%"> -->
+	   <img src='output3.png' alt='Inter Quartile Rnage' width='70%'>
+
+<br/><br/>
+      </div>
+      <div  class="cell">
+        <p class="main-text">
+          <hr> <b> We can also decide to visualize the median and interquartile ranges with the help of a boxplot. 
+            The diagram below helps us understand its structure.</b><hr>
+        </p>
+            <img src='https://cdn1.byjus.com/wp-content/uploads/2020/10/Box-Plot-and-Whisker-Plot-1.png' width="70%">
+            <br />
+            <br />
+            <br />
+
+           <!--  <img src="{{ url_for('static', filename='output4.png') }}" width="70%"> -->
+			<img src='output4.png' alt='Boxplots' width='70%'>
+
+
+      </div>
+
+  </body>
+</html>
